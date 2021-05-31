@@ -7,7 +7,7 @@ class CreateComments < ActiveRecord::Migration[6.0]
       t.references :prototype,   foreign_key: true
       t.timestamps
 
-      validates :text,       presence: true
+      
     end
   end
 end
